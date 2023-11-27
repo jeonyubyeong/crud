@@ -1,4 +1,4 @@
-import TopicList from '@/components/TopicList'
+import TopicsList from '@/components/TopicsList'
 import Image from 'next/image'
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
       <h1 className='text-3xl font-bold'>Recent News</h1>
       <p>MondoDB CRUD example</p>
       <p>Next-auth 인증</p>
-      {/*<TopicList />*/}
+      {<TopicsList />}
     </div>
   )
 }
