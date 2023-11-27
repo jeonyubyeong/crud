@@ -6,8 +6,8 @@ export default function Home() {
     <div>
       <h1 className='text-3xl font-bold'>Recent News</h1>
       <p>MondoDB CRUD example</p>
-      <p>Next-auth 인증</p>
-      {<TopicsList />}
+      <p>Next-auth</p>
+      {<TopicsList/>}
     </div>
   )
 }
