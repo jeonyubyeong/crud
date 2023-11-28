@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <div>
       <h1 className='text-3xl font-bold'>Recent News</h1>
-      <p>MondoDB CRUD example</p>
+      <p>MongoDB CRUD example</p>
       <p>Next-auth</p>
-      {<TopicsList/>}
+
     </div>
   )
 }
