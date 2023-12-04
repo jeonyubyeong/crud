@@ -24,7 +24,7 @@ export default function SignInBtn() {
         className="flex justify-center items-center gap-4  rounded-lg pl-3"
       >
         <Image src="/github-logo.png" height={30} width={30} alt="github" />
-        <span className="bg-gray-700 text-white px-4 py-3">
+        <span className="bg-gray-600 text-white px-4 py-3">
           Sign in with Github
         </span>
       </button>
